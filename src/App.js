@@ -6,7 +6,7 @@ import LayoutEffectExample from './components/LayoutEffectExample';
 import ImperativeHandleExample from './components/useImperativeHandleExample/ImperativeHandleExample';
 import ContextExample from './components/useContextExample/ContextExample';
 import MemoExample from './components/MemoExample';
-import CallBackExample from './CallBackExample/CallBackExample';
+import CallBackExample from './components/useImperativeHandleExample/CallBackExample/CallBackExample';
 
 function App() {
   return (
