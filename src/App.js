@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import ReducerExample from './components/ReducerExample';
+import EffectExample from './components/EffectExample';
+import RefExample from './components/RefExample';
+import LayoutEffectExample from './components/LayoutEffectExample';
+import ImperativeHandleExample from './components/useImperativeHandleExample/ImperativeHandleExample';
+import ContextExample from './components/useContextExample/ContextExample';
+import MemoExample from './components/MemoExample';
+import CallBackExample from './CallBackExample/CallBackExample';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ReducerExample />
+      <EffectExample />
+      <RefExample />
+      <LayoutEffectExample />
+      <ImperativeHandleExample />
+      <ContextExample />
+      <MemoExample />
+      <CallBackExample />
     </div>
   );
 }
