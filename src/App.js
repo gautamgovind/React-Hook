@@ -7,6 +7,7 @@ import ImperativeHandleExample from './components/useImperativeHandleExample/Imp
 import ContextExample from './components/useContextExample/ContextExample';
 import MemoExample from './components/MemoExample';
 import CallBackExample from './components/useImperativeHandleExample/CallBackExample/CallBackExample';
+import Comparehooks from './components/compareHooks/Comparehooks';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ContextExample />
       <MemoExample />
       <CallBackExample />
+      <Comparehooks />
     </div>
   );
 }
